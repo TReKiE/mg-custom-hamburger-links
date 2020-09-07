@@ -1,5 +1,5 @@
 Hamburger_links:
   type: list
-  default: "Footer Link,https://google.com,f|General Link,https://twitter.com,g"
+  default: "Footer Link,https://google.com,f,all|General Link,https://twitter.com,g,lv2"
   description:
-    en: 'Comma delimited in this order: Text,URL,Location.<br><b>Text:</b> what appears on the menu.<br><b>URL:</b> the path for the link.<br><b>Location:</b> where you want the link to appear. Use "g" for generalLinks and "f" for footerLinks.'
+    en: 'Comma delimited in this order: Text,URL,Location,Level.<br><b>Text:</b> what appears on the menu.<br><b>URL:</b> the path for the link.<br><b>Location:</b> where you want the link to appear. Use "g" for generalLinks and "f" for footerLinks.<br><b>Level:</b> Level you wish (lv2, lv3, or all).'

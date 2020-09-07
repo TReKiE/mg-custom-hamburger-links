@@ -9,6 +9,13 @@ $.each(sec, function(value) {
   if (sec[2] === "f") {
     loc = "footerLinks";
   }
+  if (sec[3] === "lv2" && (Discourse.User.current() != null && Discourse.User.current().trust_level < 2)) {
+    return true;
+  }
+  if (sec[3] === "lv3" && (Discourse.User.current() != null && Discourse.User.current().trust_level < 3)) {
+    return true;
+  }
+    
   var classname = sec[0].replace(/\s+/g, "-").toLowerCase();
   api.decorateWidget("hamburger-menu:" + loc, () => {
     return {
