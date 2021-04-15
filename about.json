@@ -2,7 +2,7 @@
   "name": "MG hamburger links component",
   "about_url": "https://meta.discourse.org/t/87644",
   "component": true,
-  "license_url": "https://github.com/hnb-ku/discourse-custom-hamburger-links/blob/master/LICENSE"
+  "license_url": "https://github.com/hnb-ku/discourse-custom-hamburger-links/blob/master/LICENSE",
   "assets" : {
        "new": "assets/new.gif"
   }
